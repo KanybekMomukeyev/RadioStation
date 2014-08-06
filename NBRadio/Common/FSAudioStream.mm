@@ -962,6 +962,9 @@ void AudioStreamStateObserver::audioStreamMetaDataAvailable(std::map<CFStringRef
         CFStringRef key = iter->first;
         CFStringRef value = iter->second;
         
+        NSLog(@"%@", key);
+        NSLog(@"%@", value);
+        
         metaDataDictionary[CFBridgingRelease(key)] = CFBridgingRelease(value);
     }
     

@@ -80,9 +80,51 @@
                     <view key="view" contentMode="scaleToFill" id="MMQ-IT-qOo">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="cmQ-S3-FH2">
+                                <rect key="frame" x="20" y="77" width="280" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="27M-x5-fzY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="8WR-hg-z8c">
+                                <rect key="frame" x="29" y="437" width="263" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="volumeDidChanged:" destination="Ah7-4n-0Wa" eventType="valueChanged" id="zei-lY-oQ2"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Volume" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aRB-1i-CjO">
+                                <rect key="frame" x="31" y="431" width="71" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="71" id="Kj3-9K-Euu"/>
+                                    <constraint firstAttribute="height" constant="15" id="ZCK-LX-KUQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="cmQ-S3-FH2" secondAttribute="trailing" constant="20" symbolic="YES" id="9YH-nT-HbJ"/>
+                            <constraint firstItem="a0L-h9-sNL" firstAttribute="top" secondItem="aRB-1i-CjO" secondAttribute="bottom" constant="122" id="FAX-2R-UPG"/>
+                            <constraint firstItem="cmQ-S3-FH2" firstAttribute="leading" secondItem="MMQ-IT-qOo" secondAttribute="leading" constant="20" symbolic="YES" id="GLQ-W9-vmt"/>
+                            <constraint firstItem="8WR-hg-z8c" firstAttribute="centerX" secondItem="cmQ-S3-FH2" secondAttribute="centerX" id="Kgs-zS-b5A"/>
+                            <constraint firstItem="8WR-hg-z8c" firstAttribute="leading" secondItem="aRB-1i-CjO" secondAttribute="leading" id="WC3-Cz-bUc"/>
+                            <constraint firstItem="cmQ-S3-FH2" firstAttribute="top" secondItem="cIm-e0-J51" secondAttribute="bottom" constant="13" id="WuJ-rs-bWJ"/>
+                            <constraint firstItem="aRB-1i-CjO" firstAttribute="leading" secondItem="MMQ-IT-qOo" secondAttribute="leading" constant="31" id="bPI-Rj-gpN"/>
+                            <constraint firstItem="a0L-h9-sNL" firstAttribute="top" secondItem="8WR-hg-z8c" secondAttribute="bottom" constant="101" id="iBx-qr-cE1"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Detail" id="cra-N8-TIN"/>
+                    <connections>
+                        <outlet property="streamTitleLabel" destination="cmQ-S3-FH2" id="RaQ-Ap-P5M"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lrm-kH-fPn" sceneMemberID="firstResponder"/>
             </objects>

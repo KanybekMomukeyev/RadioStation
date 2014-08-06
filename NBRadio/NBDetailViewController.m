@@ -15,6 +15,7 @@
 
 @interface NBDetailViewController ()
 @property (nonatomic, strong) FSAudioController *audioController;
+@property (nonatomic, weak) IBOutlet UILabel *streamTitleLabel;
 @end
 
 @implementation NBDetailViewController
@@ -67,7 +68,15 @@
     [super viewDidAppear:animated];
     self.audioController.url = [NSURL URLWithString:[self.detailItem objectForKey:@"radio_source"]];
     [self.audioController play];
-    NSLog(@"self.detailItem = %@",self.detailItem);
+    [self.audioController setVolume:0.5];
+    self.title = [self.detailItem objectForKey:@"name"];
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    [self.audioController stop];
+    [SVProgressHUD dismiss];
 }
 
 - (void)didReceiveMemoryWarning
@@ -75,6 +84,15 @@
     [super didReceiveMemoryWarning];
 }
 
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
+- (IBAction)volumeDidChanged:(UISlider *)sender
+{
+    [self.audioController setVolume:sender.value];
+}
 
 #pragma mark - Selector methods
 - (void)applicationDidEnterBackgroundNotification:(NSNotification *)notification
@@ -158,6 +176,25 @@
 
 - (void)audioStreamMetaDataAvailable:(NSNotification *)notification
 {
+    NSDictionary *dict = [notification userInfo];
+    NSDictionary *metaData = [dict valueForKey:FSAudioStreamNotificationKey_MetaData];
+    NSMutableString *streamInfo = [[NSMutableString alloc] init];
+    
+    [metaData enumerateKeysAndObjectsUsingBlock:^(NSString *key, id obj, BOOL *stop){
+        [streamInfo appendString:metaData[key]];
+    }];
+    
+//    if (metaData[@"MPMediaItemPropertyArtist"] &&
+//        metaData[@"MPMediaItemPropertyTitle"]) {
+//        [streamInfo appendString:metaData[@"MPMediaItemPropertyArtist"]];
+//        [streamInfo appendString:@" - "];
+//        [streamInfo appendString:metaData[@"MPMediaItemPropertyTitle"]];
+//    } else if (metaData[@"StreamTitle"]) {
+//        [streamInfo appendString:metaData[@"StreamTitle"]];
+//    }
+    
+    NSLog(@"%@", metaData);
+    self.streamTitleLabel.text = streamInfo;
 }
 
 @end
