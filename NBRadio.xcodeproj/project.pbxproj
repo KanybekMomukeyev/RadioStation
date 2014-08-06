@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A875099319922EBF0076CF1B /* NBRadioTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A875099219922EBF0076CF1B /* NBRadioTVCell.m */; };
+		A87509961992320A0076CF1B /* UIViewController+BlockSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = A87509951992320A0076CF1B /* UIViewController+BlockSegue.m */; };
+		A87509981992344F0076CF1B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87509971992344F0076CF1B /* CFNetwork.framework */; };
+		A875099A199234590076CF1B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8750999199234590076CF1B /* AudioToolbox.framework */; };
+		A875099C1992346D0076CF1B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A875099B1992346D0076CF1B /* AVFoundation.framework */; };
+		A875099E1992347A0076CF1B /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A875099D1992347A0076CF1B /* libxml2.dylib */; };
+		A87509A0199234830076CF1B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A875099F199234830076CF1B /* MediaPlayer.framework */; };
+		A87509BF199234E60076CF1B /* audio_queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A87509A2199234E50076CF1B /* audio_queue.cpp */; };
+		A87509C0199234E60076CF1B /* audio_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A87509A4199234E50076CF1B /* audio_stream.cpp */; };
+		A87509C1199234E60076CF1B /* file_output.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A87509A6199234E50076CF1B /* file_output.cpp */; };
+		A87509C2199234E60076CF1B /* http_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A87509A8199234E50076CF1B /* http_stream.cpp */; };
+		A87509C3199234E60076CF1B /* id3_parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A87509AA199234E50076CF1B /* id3_parser.cpp */; };
+		A87509C4199234E60076CF1B /* stream_configuration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A87509AC199234E50076CF1B /* stream_configuration.cpp */; };
+		A87509C5199234E60076CF1B /* FSAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = A87509B0199234E50076CF1B /* FSAudioController.m */; };
+		A87509C6199234E60076CF1B /* FSAudioStream.mm in Sources */ = {isa = PBXBuildFile; fileRef = A87509B2199234E50076CF1B /* FSAudioStream.mm */; };
+		A87509C7199234E60076CF1B /* FSCheckContentTypeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A87509B4199234E50076CF1B /* FSCheckContentTypeRequest.m */; };
+		A87509C8199234E60076CF1B /* FSParsePlaylistRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A87509B6199234E50076CF1B /* FSParsePlaylistRequest.m */; };
+		A87509C9199234E60076CF1B /* FSParseRssPodcastFeedRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A87509B8199234E50076CF1B /* FSParseRssPodcastFeedRequest.m */; };
+		A87509CA199234E60076CF1B /* FSPlaylistItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A87509BA199234E50076CF1B /* FSPlaylistItem.m */; };
+		A87509CB199234E60076CF1B /* FSXMLHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A87509BC199234E50076CF1B /* FSXMLHttpRequest.m */; };
+		A87509CC199234E60076CF1B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A87509BE199234E50076CF1B /* Reachability.m */; };
 		A8B814361991F7A600C69316 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B814351991F7A600C69316 /* Foundation.framework */; };
 		A8B814381991F7A600C69316 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B814371991F7A600C69316 /* CoreGraphics.framework */; };
 		A8B8143A1991F7A600C69316 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B814391991F7A600C69316 /* UIKit.framework */; };
@@ -22,6 +43,11 @@
 		A8B8145A1991F7A600C69316 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B814391991F7A600C69316 /* UIKit.framework */; };
 		A8B814621991F7A600C69316 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8B814601991F7A600C69316 /* InfoPlist.strings */; };
 		A8B814641991F7A600C69316 /* NBRadioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B814631991F7A600C69316 /* NBRadioTests.m */; };
+		A8B8146F1991FB3600C69316 /* NBNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B8146E1991FB3600C69316 /* NBNetworkManager.m */; };
+		A8B814731992151100C69316 /* NBBaseTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B814721992151100C69316 /* NBBaseTVC.m */; };
+		A8B8147A1992163200C69316 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A8B814771992163200C69316 /* SVProgressHUD.bundle */; };
+		A8B8147B1992163200C69316 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B814791992163200C69316 /* SVProgressHUD.m */; };
+		E41A8C0F91A9406194E8B5F6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 259ACDC3AC8544E69E5EFBB6 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +61,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		259ACDC3AC8544E69E5EFBB6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3782AE4B6B7E4FEEB6A8BA2F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		A875099119922EBF0076CF1B /* NBRadioTVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBRadioTVCell.h; sourceTree = "<group>"; };
+		A875099219922EBF0076CF1B /* NBRadioTVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBRadioTVCell.m; sourceTree = "<group>"; };
+		A87509941992320A0076CF1B /* UIViewController+BlockSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BlockSegue.h"; sourceTree = "<group>"; };
+		A87509951992320A0076CF1B /* UIViewController+BlockSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BlockSegue.m"; sourceTree = "<group>"; };
+		A87509971992344F0076CF1B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A8750999199234590076CF1B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A875099B1992346D0076CF1B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A875099D1992347A0076CF1B /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		A875099F199234830076CF1B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A87509A2199234E50076CF1B /* audio_queue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = audio_queue.cpp; sourceTree = "<group>"; };
+		A87509A3199234E50076CF1B /* audio_queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audio_queue.h; sourceTree = "<group>"; };
+		A87509A4199234E50076CF1B /* audio_stream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = audio_stream.cpp; sourceTree = "<group>"; };
+		A87509A5199234E50076CF1B /* audio_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audio_stream.h; sourceTree = "<group>"; };
+		A87509A6199234E50076CF1B /* file_output.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = file_output.cpp; sourceTree = "<group>"; };
+		A87509A7199234E50076CF1B /* file_output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = file_output.h; sourceTree = "<group>"; };
+		A87509A8199234E50076CF1B /* http_stream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = http_stream.cpp; sourceTree = "<group>"; };
+		A87509A9199234E50076CF1B /* http_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http_stream.h; sourceTree = "<group>"; };
+		A87509AA199234E50076CF1B /* id3_parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = id3_parser.cpp; sourceTree = "<group>"; };
+		A87509AB199234E50076CF1B /* id3_parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = id3_parser.h; sourceTree = "<group>"; };
+		A87509AC199234E50076CF1B /* stream_configuration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stream_configuration.cpp; sourceTree = "<group>"; };
+		A87509AD199234E50076CF1B /* stream_configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stream_configuration.h; sourceTree = "<group>"; };
+		A87509AF199234E50076CF1B /* FSAudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAudioController.h; sourceTree = "<group>"; };
+		A87509B0199234E50076CF1B /* FSAudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAudioController.m; sourceTree = "<group>"; };
+		A87509B1199234E50076CF1B /* FSAudioStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAudioStream.h; sourceTree = "<group>"; };
+		A87509B2199234E50076CF1B /* FSAudioStream.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSAudioStream.mm; sourceTree = "<group>"; };
+		A87509B3199234E50076CF1B /* FSCheckContentTypeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCheckContentTypeRequest.h; sourceTree = "<group>"; };
+		A87509B4199234E50076CF1B /* FSCheckContentTypeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCheckContentTypeRequest.m; sourceTree = "<group>"; };
+		A87509B5199234E50076CF1B /* FSParsePlaylistRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSParsePlaylistRequest.h; sourceTree = "<group>"; };
+		A87509B6199234E50076CF1B /* FSParsePlaylistRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSParsePlaylistRequest.m; sourceTree = "<group>"; };
+		A87509B7199234E50076CF1B /* FSParseRssPodcastFeedRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSParseRssPodcastFeedRequest.h; sourceTree = "<group>"; };
+		A87509B8199234E50076CF1B /* FSParseRssPodcastFeedRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSParseRssPodcastFeedRequest.m; sourceTree = "<group>"; };
+		A87509B9199234E50076CF1B /* FSPlaylistItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPlaylistItem.h; sourceTree = "<group>"; };
+		A87509BA199234E50076CF1B /* FSPlaylistItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPlaylistItem.m; sourceTree = "<group>"; };
+		A87509BB199234E50076CF1B /* FSXMLHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSXMLHttpRequest.h; sourceTree = "<group>"; };
+		A87509BC199234E50076CF1B /* FSXMLHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSXMLHttpRequest.m; sourceTree = "<group>"; };
+		A87509BD199234E50076CF1B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		A87509BE199234E50076CF1B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		A8B814321991F7A600C69316 /* NBRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8B814351991F7A600C69316 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A8B814371991F7A600C69316 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,6 +121,14 @@
 		A8B8145F1991F7A600C69316 /* NBRadioTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NBRadioTests-Info.plist"; sourceTree = "<group>"; };
 		A8B814611991F7A600C69316 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A8B814631991F7A600C69316 /* NBRadioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBRadioTests.m; sourceTree = "<group>"; };
+		A8B8146D1991FB3600C69316 /* NBNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBNetworkManager.h; sourceTree = "<group>"; };
+		A8B8146E1991FB3600C69316 /* NBNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBNetworkManager.m; sourceTree = "<group>"; };
+		A8B814711992151100C69316 /* NBBaseTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBaseTVC.h; sourceTree = "<group>"; };
+		A8B814721992151100C69316 /* NBBaseTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBaseTVC.m; sourceTree = "<group>"; };
+		A8B814761992163200C69316 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		A8B814771992163200C69316 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		A8B814781992163200C69316 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		A8B814791992163200C69316 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +136,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A87509A0199234830076CF1B /* MediaPlayer.framework in Frameworks */,
+				A875099E1992347A0076CF1B /* libxml2.dylib in Frameworks */,
+				A875099C1992346D0076CF1B /* AVFoundation.framework in Frameworks */,
+				A875099A199234590076CF1B /* AudioToolbox.framework in Frameworks */,
+				A87509981992344F0076CF1B /* CFNetwork.framework in Frameworks */,
 				A8B814381991F7A600C69316 /* CoreGraphics.framework in Frameworks */,
 				A8B8143A1991F7A600C69316 /* UIKit.framework in Frameworks */,
 				A8B814361991F7A600C69316 /* Foundation.framework in Frameworks */,
+				E41A8C0F91A9406194E8B5F6 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +161,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A87509A1199234E50076CF1B /* astreamer */ = {
+			isa = PBXGroup;
+			children = (
+				A87509A2199234E50076CF1B /* audio_queue.cpp */,
+				A87509A3199234E50076CF1B /* audio_queue.h */,
+				A87509A4199234E50076CF1B /* audio_stream.cpp */,
+				A87509A5199234E50076CF1B /* audio_stream.h */,
+				A87509A6199234E50076CF1B /* file_output.cpp */,
+				A87509A7199234E50076CF1B /* file_output.h */,
+				A87509A8199234E50076CF1B /* http_stream.cpp */,
+				A87509A9199234E50076CF1B /* http_stream.h */,
+				A87509AA199234E50076CF1B /* id3_parser.cpp */,
+				A87509AB199234E50076CF1B /* id3_parser.h */,
+				A87509AC199234E50076CF1B /* stream_configuration.cpp */,
+				A87509AD199234E50076CF1B /* stream_configuration.h */,
+			);
+			path = astreamer;
+			sourceTree = "<group>";
+		};
+		A87509AE199234E50076CF1B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A87509AF199234E50076CF1B /* FSAudioController.h */,
+				A87509B0199234E50076CF1B /* FSAudioController.m */,
+				A87509B1199234E50076CF1B /* FSAudioStream.h */,
+				A87509B2199234E50076CF1B /* FSAudioStream.mm */,
+				A87509B3199234E50076CF1B /* FSCheckContentTypeRequest.h */,
+				A87509B4199234E50076CF1B /* FSCheckContentTypeRequest.m */,
+				A87509B5199234E50076CF1B /* FSParsePlaylistRequest.h */,
+				A87509B6199234E50076CF1B /* FSParsePlaylistRequest.m */,
+				A87509B7199234E50076CF1B /* FSParseRssPodcastFeedRequest.h */,
+				A87509B8199234E50076CF1B /* FSParseRssPodcastFeedRequest.m */,
+				A87509B9199234E50076CF1B /* FSPlaylistItem.h */,
+				A87509BA199234E50076CF1B /* FSPlaylistItem.m */,
+				A87509BB199234E50076CF1B /* FSXMLHttpRequest.h */,
+				A87509BC199234E50076CF1B /* FSXMLHttpRequest.m */,
+				A87509BD199234E50076CF1B /* Reachability.h */,
+				A87509BE199234E50076CF1B /* Reachability.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		A8B814291991F7A600C69316 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +210,7 @@
 				A8B8145D1991F7A600C69316 /* NBRadioTests */,
 				A8B814341991F7A600C69316 /* Frameworks */,
 				A8B814331991F7A600C69316 /* Products */,
+				3782AE4B6B7E4FEEB6A8BA2F /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,10 +226,16 @@
 		A8B814341991F7A600C69316 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A875099F199234830076CF1B /* MediaPlayer.framework */,
+				A875099D1992347A0076CF1B /* libxml2.dylib */,
+				A875099B1992346D0076CF1B /* AVFoundation.framework */,
+				A8750999199234590076CF1B /* AudioToolbox.framework */,
+				A87509971992344F0076CF1B /* CFNetwork.framework */,
 				A8B814351991F7A600C69316 /* Foundation.framework */,
 				A8B814371991F7A600C69316 /* CoreGraphics.framework */,
 				A8B814391991F7A600C69316 /* UIKit.framework */,
 				A8B814571991F7A600C69316 /* XCTest.framework */,
+				259ACDC3AC8544E69E5EFBB6 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,13 +243,20 @@
 		A8B8143B1991F7A600C69316 /* NBRadio */ = {
 			isa = PBXGroup;
 			children = (
+				A8B814741992160000C69316 /* 3RD_Party */,
 				A8B814441991F7A600C69316 /* NBAppDelegate.h */,
 				A8B814451991F7A600C69316 /* NBAppDelegate.m */,
 				A8B814471991F7A600C69316 /* Main.storyboard */,
+				A8B814711992151100C69316 /* NBBaseTVC.h */,
+				A8B814721992151100C69316 /* NBBaseTVC.m */,
 				A8B8144A1991F7A600C69316 /* NBMasterViewController.h */,
 				A8B8144B1991F7A600C69316 /* NBMasterViewController.m */,
+				A875099119922EBF0076CF1B /* NBRadioTVCell.h */,
+				A875099219922EBF0076CF1B /* NBRadioTVCell.m */,
 				A8B8144D1991F7A600C69316 /* NBDetailViewController.h */,
 				A8B8144E1991F7A600C69316 /* NBDetailViewController.m */,
+				A8B8146D1991FB3600C69316 /* NBNetworkManager.h */,
+				A8B8146E1991FB3600C69316 /* NBNetworkManager.m */,
 				A8B814501991F7A600C69316 /* Images.xcassets */,
 				A8B8143C1991F7A600C69316 /* Supporting Files */,
 			);
@@ -157,6 +292,29 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A8B814741992160000C69316 /* 3RD_Party */ = {
+			isa = PBXGroup;
+			children = (
+				A87509A1199234E50076CF1B /* astreamer */,
+				A87509AE199234E50076CF1B /* Common */,
+				A87509941992320A0076CF1B /* UIViewController+BlockSegue.h */,
+				A87509951992320A0076CF1B /* UIViewController+BlockSegue.m */,
+				A8B814751992163200C69316 /* SVProgressHUD */,
+			);
+			name = 3RD_Party;
+			sourceTree = "<group>";
+		};
+		A8B814751992163200C69316 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				A8B814761992163200C69316 /* SVProgressHUD-Prefix.pch */,
+				A8B814771992163200C69316 /* SVProgressHUD.bundle */,
+				A8B814781992163200C69316 /* SVProgressHUD.h */,
+				A8B814791992163200C69316 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,9 +322,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8B814671991F7A600C69316 /* Build configuration list for PBXNativeTarget "NBRadio" */;
 			buildPhases = (
+				5C6E913E86B841B58942683C /* Check Pods Manifest.lock */,
 				A8B8142E1991F7A600C69316 /* Sources */,
 				A8B8142F1991F7A600C69316 /* Frameworks */,
 				A8B814301991F7A600C69316 /* Resources */,
+				6162C5771328404191A54271 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,6 +397,7 @@
 				A8B814511991F7A600C69316 /* Images.xcassets in Resources */,
 				A8B814401991F7A600C69316 /* InfoPlist.strings in Resources */,
 				A8B814491991F7A600C69316 /* Main.storyboard in Resources */,
+				A8B8147A1992163200C69316 /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,15 +411,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5C6E913E86B841B58942683C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6162C5771328404191A54271 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A8B8142E1991F7A600C69316 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A87509C1199234E60076CF1B /* file_output.cpp in Sources */,
+				A87509BF199234E60076CF1B /* audio_queue.cpp in Sources */,
+				A87509C2199234E60076CF1B /* http_stream.cpp in Sources */,
+				A87509C8199234E60076CF1B /* FSParsePlaylistRequest.m in Sources */,
+				A87509CA199234E60076CF1B /* FSPlaylistItem.m in Sources */,
+				A87509C9199234E60076CF1B /* FSParseRssPodcastFeedRequest.m in Sources */,
 				A8B8144C1991F7A600C69316 /* NBMasterViewController.m in Sources */,
 				A8B8144F1991F7A600C69316 /* NBDetailViewController.m in Sources */,
+				A8B814731992151100C69316 /* NBBaseTVC.m in Sources */,
+				A875099319922EBF0076CF1B /* NBRadioTVCell.m in Sources */,
+				A8B8147B1992163200C69316 /* SVProgressHUD.m in Sources */,
+				A87509C4199234E60076CF1B /* stream_configuration.cpp in Sources */,
+				A87509C7199234E60076CF1B /* FSCheckContentTypeRequest.m in Sources */,
 				A8B814461991F7A600C69316 /* NBAppDelegate.m in Sources */,
+				A87509C3199234E60076CF1B /* id3_parser.cpp in Sources */,
+				A87509961992320A0076CF1B /* UIViewController+BlockSegue.m in Sources */,
+				A87509C6199234E60076CF1B /* FSAudioStream.mm in Sources */,
+				A87509CC199234E60076CF1B /* Reachability.m in Sources */,
+				A87509C0199234E60076CF1B /* audio_stream.cpp in Sources */,
+				A87509C5199234E60076CF1B /* FSAudioController.m in Sources */,
 				A8B814421991F7A600C69316 /* main.m in Sources */,
+				A87509CB199234E60076CF1B /* FSXMLHttpRequest.m in Sources */,
+				A8B8146F1991FB3600C69316 /* NBNetworkManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,12 +593,19 @@
 		};
 		A8B814681991F7A600C69316 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3782AE4B6B7E4FEEB6A8BA2F /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NBRadio/NBRadio-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/AFNetworking\"",
+					"\"$(SDKROOT)/usr/include/libxml2\"",
+				);
 				INFOPLIST_FILE = "NBRadio/NBRadio-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,12 +613,19 @@
 		};
 		A8B814691991F7A600C69316 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3782AE4B6B7E4FEEB6A8BA2F /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NBRadio/NBRadio-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/AFNetworking\"",
+					"\"$(SDKROOT)/usr/include/libxml2\"",
+				);
 				INFOPLIST_FILE = "NBRadio/NBRadio-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -463,6 +690,7 @@
 				A8B814691991F7A600C69316 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8B8146A1991F7A600C69316 /* Build configuration list for PBXNativeTarget "NBRadioTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +699,7 @@
 				A8B8146C1991F7A600C69316 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

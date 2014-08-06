@@ -1,5 +1,5 @@
 //
-//  NBMasterViewController.h
+//  NBBaseTVC.h
 //  NBRadio
 //
 //  Created by Kanybek Momukeev on 06/08/14.
@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "NBBaseTVC.h"
 
-@interface NBMasterViewController : NBBaseTVC
+@interface NBBaseTVC : UITableViewController
 
 @end

@@ -9,8 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface NBDetailViewController : UIViewController
-
-@property (strong, nonatomic) id detailItem;
-
+@property (strong, nonatomic) NSDictionary *detailItem;
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @end
